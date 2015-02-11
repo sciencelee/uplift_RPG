@@ -200,7 +200,13 @@ facing = 0;
         canSlash = false;
         alarm[1] = 7;
     }
-    
+    if (keyboard_check(vk_nokey)){
+        image_speed = 0;
+    }    
+    else
+    {
+        image_speed = 1;
+    }
 }
 
 
@@ -255,12 +261,12 @@ y = yprevious;
 
 if (facing == 0 || facing ==180)
 {
-    other.hspeed = self.hspeed*0.5;
+    other.hspeed = self.hspeed;
 }
 
 if (facing == 90 || facing== 270)
 {    
-    other.vspeed = self.vspeed*0.5;
+    other.vspeed = self.vspeed;
 }
 </string>
           </argument>
@@ -383,7 +389,7 @@ if (facing == 90 || facing== 270)
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="0">
+    <event eventtype="7" enumb="4">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -400,13 +406,55 @@ if (facing == 90 || facing== 270)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//SHADOWS
-
-//draw_sprite_ext( sprite, subimg, x, y, xscale, yscale, rot, colour, alpha );
-
-draw_sprite_ext(sprite_index, 0, x, y+16, 1, 1, 0, c_black, 0.5);
-draw_self();
+            <string>///AUTOSAVE FEATURE
+if(file_exists("Save.sav")) file_delete("Save.sav")
+var SaveFile = file_text_open_write("Save.sav");
+var SaveRoom = room;
+file_text_write_real(SaveFile,SaveRoom);
+file_text_close(SaveFile);
 </string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>601</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>9</kind>
+            <script>script_shadow</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>8</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>true</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>

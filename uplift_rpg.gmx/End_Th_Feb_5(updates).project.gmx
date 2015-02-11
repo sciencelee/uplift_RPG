@@ -29,6 +29,8 @@
       <sprite>sprites\sprite_player_right_sword</sprite>
     </sprites>
     <sprite>sprites\sprite_slash</sprite>
+    <sprite>sprites\sprite_large_tree</sprite>
+    <sprite>sprites\sprite_thatch_roof</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -42,6 +44,9 @@
     <script>scripts\script_smart_slasher.gml</script>
     <script>scripts\script_dumb_slasher.gml</script>
     <script>scripts\script_archer.gml</script>
+    <script>scripts\script_game_load.gml</script>
+    <script>scripts\script7.gml</script>
+    <script>scripts\script_shadow.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_stats</font>
@@ -50,6 +55,7 @@
     <object>objects\object_player</object>
     <object>objects\object_wall</object>
     <object>objects\object_expr</object>
+    <object>objects\object_expr_from_enemy</object>
     <object>objects\object_globals</object>
     <object>objects\object_stats</object>
     <object>objects\object_enemy_guard</object>
@@ -71,17 +77,12 @@
     <object>objects\object_import_archer</object>
     <object>objects\object_floor</object>
     <object>objects\object_block_push</object>
+    <object>objects\object_large_tree</object>
+    <object>objects\object_thatch_roof</object>
+    <object>objects\object_game_controller</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\starting_room_0_0</room>
-    <room>rooms\room_0_1</room>
-    <room>rooms\room_0_2</room>
-    <room>rooms\room_1_0</room>
-    <room>rooms\room_1_1</room>
-    <room>rooms\room_1_2</room>
-    <room>rooms\room_2_0</room>
-    <room>rooms\room_2_1</room>
-    <room>rooms\room_2_2</room>
+    <room>rooms\room_1</room>
     <room>rooms\protoroom</room>
   </rooms>
   <help>

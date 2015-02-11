@@ -291,7 +291,11 @@ alarm[0] = 300;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite_ext(sprite_index, direction, x, y + 16, 1, 1, 0, c_black, 0.5);
+            <string>/// script_shadow draws the shadow and the object
+
+
+draw_sprite_ext(sprite_index, direction, x, y+ 16, 1, 1, 0, c_black, 0.4);
+
 draw_self();
 </string>
           </argument>
