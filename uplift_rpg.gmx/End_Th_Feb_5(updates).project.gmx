@@ -6,19 +6,29 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\sprite_player</sprite>
     <sprite>sprites\sprite_enemy</sprite>
     <sprite>sprites\sprite_wall</sprite>
+    <sprite>sprites\sprite_block_push</sprite>
     <sprite>sprites\sprite_exit_leftright</sprite>
     <sprite>sprites\sprite_exit_updown</sprite>
     <sprite>sprites\sprite_gold_door</sprite>
     <sprite>sprites\sprite_tallwall</sprite>
     <sprite>sprites\sprite_expr</sprite>
     <sprite>sprites\sprite_arrow</sprite>
-    <sprite>sprites\sprite_slash</sprite>
     <sprite>sprites\sprite_gold_key</sprite>
     <sprite>sprites\sprite_health_potion</sprite>
     <sprite>sprites\sprite_floor</sprite>
+    <sprites name="player">
+      <sprite>sprites\sprite_player_right</sprite>
+      <sprite>sprites\sprite_player_left</sprite>
+      <sprite>sprites\sprite_player_front</sprite>
+      <sprite>sprites\sprite_player_back</sprite>
+      <sprite>sprites\sprite_player_back_sword</sprite>
+      <sprite>sprites\sprite_player_front_sword</sprite>
+      <sprite>sprites\sprite_player_left_sword</sprite>
+      <sprite>sprites\sprite_player_right_sword</sprite>
+    </sprites>
+    <sprite>sprites\sprite_slash</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -60,6 +70,7 @@
     <object>objects\object_room_switch_up</object>
     <object>objects\object_import_archer</object>
     <object>objects\object_floor</object>
+    <object>objects\object_block_push</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\starting_room_0_0</room>
