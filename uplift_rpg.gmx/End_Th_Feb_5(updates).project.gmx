@@ -31,6 +31,7 @@
     <sprite>sprites\sprite_slash</sprite>
     <sprite>sprites\sprite_large_tree</sprite>
     <sprite>sprites\sprite_thatch_roof</sprite>
+    <sprite>sprites\sprite_luffy_punch_left</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -83,7 +84,6 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\room_1</room>
-    <room>rooms\protoroom</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
