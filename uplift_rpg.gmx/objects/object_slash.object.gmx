@@ -96,7 +96,47 @@ y = object_player.y + y_offset;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="object_enemy">
+    <event eventtype="4" ename="object_enemy_parent">
+      <action>
+        <libid>1</libid>
+        <id>532</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_effect</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>-1</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>4</kind>
+            <string>3</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+          <argument>
+            <kind>13</kind>
+            <string>255</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>1</string>
+          </argument>
+        </arguments>
+      </action>
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -113,7 +153,7 @@ y = object_player.y + y_offset;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>other.hp_enemy -= 1;
+            <string>other.hp_enemy -= global.sword;
 </string>
           </argument>
         </arguments>

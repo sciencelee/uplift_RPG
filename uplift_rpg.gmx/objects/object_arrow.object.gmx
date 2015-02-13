@@ -28,7 +28,6 @@
             <string>{
     speed = 10;
     direction = object_player.direction;
-    attack_bonus = 2;
     
     hit_wall = false;
 }
@@ -146,7 +145,34 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="object_enemy">
+    <event eventtype="4" ename="object_wall">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>{
+speed = 0;
+hit_wall = true;
+alarm[0] = 300;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="object_enemy_parent">
       <action>
         <libid>1</libid>
         <id>532</id>
@@ -207,7 +233,7 @@
     if (!hit_wall){
     with(other){
         
-        hp_enemy -= (1 + object_arrow.attack_bonus);
+        hp_enemy -= (1 + global.arrow);
     }
     }
 
@@ -231,34 +257,7 @@
         <isnot>0</isnot>
       </action>
     </event>
-    <event eventtype="4" ename="object_wall">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>{
-speed = 0;
-hit_wall = true;
-alarm[0] = 300;
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="7" enumb="0">
+    <event eventtype="7" enumb="1">
       <action>
         <libid>1</libid>
         <id>203</id>

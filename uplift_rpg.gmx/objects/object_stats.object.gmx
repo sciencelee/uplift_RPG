@@ -3,32 +3,38 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-10000</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="8" enumb="0">
+    <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
-        <id>524</id>
-        <kind>0</kind>
+        <id>603</id>
+        <kind>7</kind>
         <userelative>0</userelative>
         <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_color</functionname>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
         <codestring></codestring>
         <whoName>self</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
-            <kind>13</kind>
-            <string>16777215</string>
+            <kind>1</kind>
+            <string>draw_set_alpha(0.75);
+x_offset = 600;
+stat_offset = 76;
+
+</string>
           </argument>
         </arguments>
       </action>
+    </event>
+    <event eventtype="8" enumb="0">
       <action>
         <libid>1</libid>
         <id>526</id>
@@ -69,11 +75,26 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>{
-    draw_text(x,y, "Level: " + string(global.level));
-    draw_text(x, y+24, "HP: " + string(global.hp) + "/" + string(global.maxhp));
-    draw_text(x, y+48, "Exp: " + string(global.expr) + "/" + string(global.maxexpr));
-}
+            <string>///draws stats
+//use the stat_offset in create to change the spacing.
+    draw_set_color(c_black);
+    draw_set_alpha(.4);
+    draw_rectangle(x_offset+view_xview[0],view_yview[0], view_xview[0]+ 800, view_yview[0]+110, false);
+    draw_set_alpha(1);
+    draw_rectangle(x_offset+view_xview[0],view_yview[0], view_xview[0]+ 800, view_yview[0]+110, true);
+    
+    draw_set_color(c_white);
+    draw_text(x_offset+view_xview[0]+32,view_yview[0], "Lvl:");
+    draw_text(x_offset+view_xview[0]+32,view_yview[0]+24, "HP:")     
+    draw_text(x_offset+view_xview[0]+32,view_yview[0]+48, "Exp:");
+    draw_text(x_offset+view_xview[0]+32,view_yview[0]+72, "Gold:");
+    
+    draw_text(x_offset+view_xview[0]+32+stat_offset,view_yview[0],  string(global.level));
+    draw_text(x_offset+view_xview[0]+32+stat_offset,view_yview[0]+24, string(global.hp) + "/" + string(global.maxhp));
+    draw_text(x_offset+view_xview[0]+32+stat_offset,view_yview[0]+48, string(global.expr) + "/" + string(global.maxexpr));
+    draw_text(x_offset+view_xview[0]+32+stat_offset,view_yview[0]+72, string(global.gold));
+
+
 </string>
           </argument>
         </arguments>

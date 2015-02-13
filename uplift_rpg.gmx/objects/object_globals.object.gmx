@@ -2,7 +2,7 @@
 <object>
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
-  <visible>-1</visible>
+  <visible>0</visible>
   <depth>0</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
@@ -26,13 +26,25 @@
           <argument>
             <kind>1</kind>
             <string>{
+    //player_stats
     global.level = 1;
     global.hp = 10;
+    global.gold = 0;
     global.maxhp = 10;
     global.expr = 0;
     global.maxexpr = 2;
-    global.rooms_in_x = 3;
-
+    
+    //player attributes
+    global.sword = 1;
+    global.arrow = 1;
+    global.defense = 1;
+    
+    // room tracking variables to return to main map correctly
+    global.mapx=0;
+    global.mapy=0;
+    
+    //game tracking variables
+    global.paused = false;
 }
 </string>
           </argument>

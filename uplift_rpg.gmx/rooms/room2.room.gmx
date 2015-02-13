@@ -2,16 +2,16 @@
 <room>
   <caption></caption>
   <width>800</width>
-  <height>600</height>
-  <vsnap>24</vsnap>
+  <height>608</height>
+  <vsnap>32</vsnap>
   <hsnap>32</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
-  <persistent>-1</persistent>
-  <colour>32768</colour>
+  <persistent>0</persistent>
+  <colour>0</colour>
   <showcolour>-1</showcolour>
   <code></code>
-  <enableViews>0</enableViews>
+  <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
@@ -31,8 +31,8 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="background0" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
-    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="0" foreground="0" name="RPGtileset" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="0" foreground="0" name="RPGtileset" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -41,8 +41,8 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
-    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="object_player" xview="0" yview="0" wview="800" hview="608" xport="0" yport="0" wport="800" hport="608" hborder="400" vborder="304" hspeed="-1" vspeed="-1"/>
+    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="10000" hview="10000" xport="0" yport="0" wport="800" hport="608" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -51,76 +51,533 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="object_wall" x="192" y="576" name="inst_7606E63B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="672" y="576" name="inst_D6D16A28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="360" name="inst_4A162DA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="288" name="inst_E7D9F4C0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="576" name="inst_C56F5911" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="512" y="576" name="inst_6BE562D0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="0" name="inst_D97DFE38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="336" name="inst_DB0D70A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="320" y="576" name="inst_64764B1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="736" y="576" name="inst_797C6545" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="352" y="576" name="inst_AC8AD19F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="120" name="inst_5D679C09" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="544" y="576" name="inst_333BC10E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="72" name="inst_BF7D3AA7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="264" name="inst_EB1192F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="456" name="inst_25FC7E7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="552" name="inst_06288A71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="32" y="576" name="inst_57D1A7C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="64" y="576" name="inst_BCE2E9A4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_globals" x="64" y="48" name="inst_EB91AA3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_stats" x="640" y="24" name="inst_894B1538" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_expr" x="144" y="97" name="inst_E59C3474" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_expr" x="141" y="180" name="inst_577D7931" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_expr" x="158" y="322" name="inst_C8A9B69E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_expr" x="237" y="377" name="inst_60F2EEEA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_expr" x="174" y="428" name="inst_766F6F98" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_expr" x="153" y="356" name="inst_0FC79B4D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_expr" x="194" y="345" name="inst_02B767DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_expr" x="187" y="212" name="inst_19510153" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_expr" x="298" y="139" name="inst_848D9316" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="24" name="inst_2356FC90" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="160" y="576" name="inst_2C24EFD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="48" name="inst_FC5B5771" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_expr" x="256" y="168" name="inst_7EC00754" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_expr" x="233" y="126" name="inst_A3B73883" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_expr" x="179" y="148" name="inst_899BFC8D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_expr" x="93" y="176" name="inst_016F6B84" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="128" y="576" name="inst_6B6B2520" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="0" y="576" name="inst_02C2749C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="704" y="576" name="inst_A9CDF62C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="480" y="576" name="inst_86FCD099" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="312" name="inst_44AD1CFE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="0" y="528" name="inst_59DDBFCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="448" y="576" name="inst_A5245E7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="416" y="576" name="inst_74176849" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="384" y="576" name="inst_A30DC6EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="288" y="576" name="inst_7121C084" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="576" y="576" name="inst_1CA592FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="408" name="inst_16357D15" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="96" name="inst_424B972B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="168" name="inst_48DCD8C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="192" name="inst_77A93FAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="216" name="inst_49E09941" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="240" name="inst_DFCC2D93" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="528" name="inst_C922B998" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="0" y="552" name="inst_FFFC9708" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_enemy_guard" x="320" y="144" name="inst_545BE8CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="504" name="inst_554A39D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="480" name="inst_E907C535" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="432" name="inst_A18307A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="608" y="576" name="inst_D681A71E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="384" name="inst_0233E1DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="640" y="576" name="inst_A803AD8F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="96" y="576" name="inst_225C2829" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="224" y="576" name="inst_5F7929D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="256" y="576" name="inst_C6D03B51" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="768" y="144" name="inst_6193A161" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_player" x="32" y="240" name="inst_A41B23F8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_globals" x="128" y="64" name="inst_6CF6676F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_inventory_manager" x="32" y="192" name="inst_74113F75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_stats" x="512" y="96" name="inst_6AD49E61" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_player" x="384" y="448" name="inst_94BE950C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="128" y="128" name="inst_A5973231" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="160" y="128" name="inst_3E02FDC8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="128" y="96" name="inst_B4FCCEC9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="160" y="96" name="inst_4625838B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="96" y="64" name="inst_426100A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="96" y="128" name="inst_E74F5866" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="96" y="96" name="inst_B84F776F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="96" y="160" name="inst_0874061C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="96" y="192" name="inst_44AA6133" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="96" y="224" name="inst_63D6B8D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="96" y="256" name="inst_4D7071FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="96" y="288" name="inst_990F189E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="96" y="320" name="inst_2A344BCA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="96" y="352" name="inst_17D04059" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="96" y="384" name="inst_2F0638AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="96" y="416" name="inst_A9E3B8B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="96" y="448" name="inst_04DE2A11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="96" y="480" name="inst_9027B04B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="96" y="512" name="inst_D3759286" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="128" y="480" name="inst_E92625CB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="160" y="480" name="inst_060681D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="192" y="480" name="inst_C84D049D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="224" y="480" name="inst_3184BD07" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="256" y="480" name="inst_5A8B311C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="288" y="480" name="inst_AAF5A050" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="320" y="480" name="inst_9EB27913" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="320" y="512" name="inst_E973E99A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="352" y="512" name="inst_C067A37B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="384" y="512" name="inst_B344996F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="416" y="512" name="inst_E8135AD6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="448" y="512" name="inst_ADAE824C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="480" y="512" name="inst_FDEAF6BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="512" y="512" name="inst_C8AFAFA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="544" y="512" name="inst_F2EC6240" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="576" y="512" name="inst_0DE9140E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="608" y="512" name="inst_CD2B85FB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="640" y="512" name="inst_953FF780" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="672" y="512" name="inst_A50CD301" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="672" y="480" name="inst_2CF9A5CD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="672" y="448" name="inst_B5B1F0EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="672" y="416" name="inst_E6FA490D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="672" y="384" name="inst_FB90AAB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="672" y="352" name="inst_A8158C1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="672" y="320" name="inst_8106F303" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="672" y="288" name="inst_1DAC68E2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="672" y="256" name="inst_8FB6655B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="672" y="224" name="inst_4DE555C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="672" y="192" name="inst_1CBA143B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="672" y="160" name="inst_7B285B0A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="672" y="128" name="inst_BFAB6536" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="672" y="96" name="inst_DF2C91EE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="672" y="64" name="inst_06B500DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="128" y="64" name="inst_5827D5C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="160" y="64" name="inst_ABB70857" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="192" y="64" name="inst_50926BCA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="224" y="64" name="inst_DE1DE9AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="256" y="64" name="inst_421ED805" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="288" y="64" name="inst_B53B4305" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="320" y="64" name="inst_D0C69724" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="352" y="64" name="inst_B9E18821" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="384" y="64" name="inst_643246C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="416" y="64" name="inst_81CB10B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="448" y="64" name="inst_F8C106CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="480" y="64" name="inst_C5092A7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="512" y="64" name="inst_5318FA05" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="544" y="64" name="inst_18CE433B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="576" y="64" name="inst_C8017885" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="608" y="64" name="inst_91F6F004" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="640" y="64" name="inst_97603AB9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="640" y="96" name="inst_465E3DC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="576" y="96" name="inst_52B26F1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="544" y="96" name="inst_E5729690" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="448" y="96" name="inst_343A2AA3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="416" y="96" name="inst_1F5A04F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="384" y="96" name="inst_4613F6F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="352" y="96" name="inst_46BABFD1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="320" y="96" name="inst_4F4A3EC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="288" y="128" name="inst_D3FC04D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="288" y="160" name="inst_B6F17704" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="288" y="192" name="inst_4D33397F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="288" y="224" name="inst_ABB3D798" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="320" y="224" name="inst_6C7DD360" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="352" y="224" name="inst_B76AE2D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="384" y="224" name="inst_DCA62FD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="416" y="224" name="inst_141F5506" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="448" y="224" name="inst_DF73447B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="480" y="224" name="inst_8F74F088" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="480" y="192" name="inst_3EA0CFF3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="480" y="160" name="inst_8FDA6CA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="480" y="128" name="inst_07162A48" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="192" y="160" name="inst_94E14EC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="192" y="128" name="inst_C365E020" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="192" y="96" name="inst_8CF060E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="224" y="96" name="inst_525EC3B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="256" y="96" name="inst_8ED8B8C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="288" y="512" name="inst_13702333" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="256" y="512" name="inst_A09F2A12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="224" y="512" name="inst_B4BDE5D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="192" y="512" name="inst_30E6B718" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="160" y="512" name="inst_FBB24A24" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="128" y="512" name="inst_F28BD182" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="416" y="480" name="inst_EEACAE1C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="448" y="480" name="inst_F3ECDA38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="480" y="480" name="inst_BDCE3523" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="512" y="480" name="inst_54FE90ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="544" y="480" name="inst_C6CC79B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="576" y="480" name="inst_716EF038" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="608" y="480" name="inst_F7BDC473" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="640" y="480" name="inst_D37552ED" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
-  <tiles/>
+  <tiles>
+    <tile bgName="RPGtileset" x="640" y="128" w="32" h="32" xo="864" yo="208" id="10000747" name="inst_F721C68C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="640" y="160" w="32" h="32" xo="864" yo="208" id="10000748" name="inst_8DA18B1B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="640" y="192" w="32" h="32" xo="864" yo="208" id="10000749" name="inst_C2BC7F0B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="640" y="224" w="32" h="32" xo="864" yo="208" id="10000750" name="inst_A3A079A2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="640" y="256" w="32" h="32" xo="864" yo="208" id="10000751" name="inst_E77CBA1D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="640" y="288" w="32" h="32" xo="864" yo="208" id="10000752" name="inst_20C2C685" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="640" y="320" w="32" h="32" xo="864" yo="208" id="10000753" name="inst_D53E2264" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="640" y="352" w="32" h="32" xo="864" yo="208" id="10000754" name="inst_AAF0A678" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="640" y="384" w="32" h="32" xo="864" yo="208" id="10000755" name="inst_0C324A1D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="640" y="416" w="32" h="32" xo="864" yo="208" id="10000756" name="inst_AF800B37" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="640" y="96" w="32" h="32" xo="864" yo="192" id="10000757" name="inst_7F3644D1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="576" y="96" w="32" h="32" xo="848" yo="192" id="10000758" name="inst_268EF56F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="96" w="32" h="32" xo="848" yo="192" id="10000759" name="inst_87FDB266" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="96" w="32" h="32" xo="848" yo="192" id="10000760" name="inst_1C5E5E1A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="96" w="32" h="32" xo="848" yo="192" id="10000761" name="inst_BBECEE2A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="96" w="32" h="32" xo="848" yo="192" id="10000762" name="inst_815CBE89" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="96" w="32" h="32" xo="848" yo="192" id="10000763" name="inst_431D2BA4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="96" w="32" h="32" xo="848" yo="192" id="10000764" name="inst_95D782A2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="96" w="32" h="32" xo="848" yo="192" id="10000765" name="inst_26651C34" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="96" w="32" h="32" xo="848" yo="192" id="10000766" name="inst_0362F323" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="96" w="32" h="32" xo="848" yo="192" id="10000767" name="inst_C67DA3DF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="96" w="32" h="32" xo="848" yo="192" id="10000768" name="inst_4CD25A43" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="96" w="32" h="32" xo="848" yo="192" id="10000769" name="inst_1B8114E4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="192" y="96" w="32" h="32" xo="848" yo="192" id="10000770" name="inst_195CFB1D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="608" y="96" w="32" h="32" xo="848" yo="192" id="10000771" name="inst_74CA475E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="160" y="96" w="32" h="32" xo="848" yo="192" id="10000772" name="inst_6CAA7663" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="128" y="96" w="32" h="32" xo="832" yo="192" id="10000773" name="inst_58F140FC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="128" y="128" w="32" h="32" xo="832" yo="208" id="10000774" name="inst_5F9313B9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="128" y="160" w="32" h="32" xo="832" yo="208" id="10000775" name="inst_08C5E009" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="128" y="192" w="32" h="32" xo="832" yo="208" id="10000776" name="inst_852B8020" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="128" y="224" w="32" h="32" xo="832" yo="208" id="10000777" name="inst_78146641" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="128" y="256" w="32" h="32" xo="832" yo="208" id="10000778" name="inst_CB3F90A7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="128" y="288" w="32" h="32" xo="832" yo="208" id="10000779" name="inst_CF30334A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="128" y="320" w="32" h="32" xo="832" yo="208" id="10000780" name="inst_5C105428" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="128" y="352" w="32" h="32" xo="832" yo="208" id="10000781" name="inst_AD80DDDE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="128" y="384" w="32" h="32" xo="832" yo="208" id="10000782" name="inst_9A2885D6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="128" y="416" w="32" h="32" xo="832" yo="224" id="10000783" name="inst_19996BBC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="160" y="416" w="32" h="32" xo="848" yo="224" id="10000784" name="inst_EE49262F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="192" y="416" w="32" h="32" xo="848" yo="224" id="10000785" name="inst_B99742FC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="416" w="32" h="32" xo="848" yo="224" id="10000786" name="inst_A40A78D5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="416" w="32" h="32" xo="848" yo="224" id="10000787" name="inst_6487353B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="416" w="32" h="32" xo="848" yo="224" id="10000788" name="inst_11D998D5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="416" w="32" h="32" xo="848" yo="224" id="10000789" name="inst_4541ADD0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="512" w="32" h="32" xo="848" yo="224" id="10000790" name="inst_7A9D10F9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="512" w="32" h="32" xo="848" yo="224" id="10000791" name="inst_533A7187" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="416" w="32" h="32" xo="848" yo="224" id="10000792" name="inst_B47214F0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="416" w="32" h="32" xo="848" yo="224" id="10000793" name="inst_0886E75C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="416" w="32" h="32" xo="848" yo="224" id="10000794" name="inst_9C6AB802" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="416" w="32" h="32" xo="848" yo="224" id="10000795" name="inst_50DEC0E6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="416" w="32" h="32" xo="848" yo="224" id="10000796" name="inst_58B0EE40" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="576" y="416" w="32" h="32" xo="848" yo="224" id="10000797" name="inst_B2B0D5C7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="608" y="416" w="32" h="32" xo="848" yo="224" id="10000798" name="inst_256526EF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="160" y="128" w="32" h="32" xo="848" yo="208" id="10000799" name="inst_03010702" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="192" y="128" w="32" h="32" xo="848" yo="208" id="10000802" name="inst_E0949A43" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="128" w="32" h="32" xo="848" yo="208" id="10000803" name="inst_E76A5B2A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="128" w="32" h="32" xo="848" yo="208" id="10000810" name="inst_B30C3C7A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="128" w="32" h="32" xo="848" yo="208" id="10000811" name="inst_FD02DF98" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="128" w="32" h="32" xo="848" yo="208" id="10000812" name="inst_D6F67D99" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="128" w="32" h="32" xo="848" yo="208" id="10000813" name="inst_81C4C7DB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="128" w="32" h="32" xo="848" yo="208" id="10000814" name="inst_84475935" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="128" w="32" h="32" xo="848" yo="208" id="10000815" name="inst_5C377116" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="128" w="32" h="32" xo="848" yo="208" id="10000818" name="inst_CDDB4103" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="128" w="32" h="32" xo="848" yo="208" id="10000819" name="inst_ED35AD43" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="128" w="32" h="32" xo="848" yo="208" id="10000820" name="inst_4159C11C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="128" w="32" h="32" xo="848" yo="208" id="10000821" name="inst_5ED44298" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="576" y="128" w="32" h="32" xo="848" yo="208" id="10000822" name="inst_F215C0C0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="608" y="128" w="32" h="32" xo="848" yo="208" id="10000823" name="inst_BDE63472" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="608" y="160" w="32" h="32" xo="848" yo="208" id="10000824" name="inst_45401306" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="576" y="160" w="32" h="32" xo="848" yo="208" id="10000825" name="inst_13FB4572" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="160" w="32" h="32" xo="848" yo="208" id="10000826" name="inst_D45B2215" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="160" w="32" h="32" xo="848" yo="208" id="10000827" name="inst_CAA63824" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="160" w="32" h="32" xo="848" yo="208" id="10000828" name="inst_B8D96D43" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="160" w="32" h="32" xo="848" yo="208" id="10000829" name="inst_83ED6ED0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="160" w="32" h="32" xo="848" yo="208" id="10000830" name="inst_276E9E53" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="160" w="32" h="32" xo="848" yo="208" id="10000831" name="inst_B3CDCB97" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="160" w="32" h="32" xo="848" yo="208" id="10000832" name="inst_973A94A0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="160" w="32" h="32" xo="848" yo="208" id="10000833" name="inst_8E44A02D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="160" w="32" h="32" xo="848" yo="208" id="10000834" name="inst_FA2FB1E8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="160" w="32" h="32" xo="848" yo="208" id="10000835" name="inst_F414D8D8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="160" w="32" h="32" xo="848" yo="208" id="10000836" name="inst_2382D6A9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="192" y="160" w="32" h="32" xo="848" yo="208" id="10000837" name="inst_30944A29" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="160" y="160" w="32" h="32" xo="848" yo="208" id="10000838" name="inst_1FB93E61" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="160" y="192" w="32" h="32" xo="848" yo="208" id="10000839" name="inst_912734A7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="192" y="192" w="32" h="32" xo="848" yo="208" id="10000840" name="inst_88EFBC98" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="192" w="32" h="32" xo="848" yo="208" id="10000841" name="inst_A795E0D1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="192" w="32" h="32" xo="848" yo="208" id="10000842" name="inst_9B08C320" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="192" w="32" h="32" xo="848" yo="208" id="10000843" name="inst_0C89AFAF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="192" w="32" h="32" xo="848" yo="208" id="10000844" name="inst_2EB05636" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="192" w="32" h="32" xo="848" yo="208" id="10000845" name="inst_EB7B481A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="192" w="32" h="32" xo="848" yo="208" id="10000846" name="inst_72C8E9AE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="192" w="32" h="32" xo="848" yo="208" id="10000847" name="inst_3B58B5A1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="192" w="32" h="32" xo="848" yo="208" id="10000848" name="inst_2709F2BF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="192" w="32" h="32" xo="848" yo="208" id="10000849" name="inst_CA86AEA1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="192" w="32" h="32" xo="848" yo="208" id="10000850" name="inst_B49768F3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="192" w="32" h="32" xo="848" yo="208" id="10000851" name="inst_2D507505" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="576" y="192" w="32" h="32" xo="848" yo="208" id="10000852" name="inst_B657BE69" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="608" y="192" w="32" h="32" xo="848" yo="208" id="10000853" name="inst_277D2A5A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="608" y="224" w="32" h="32" xo="848" yo="208" id="10000854" name="inst_9817C0B1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="576" y="224" w="32" h="32" xo="848" yo="208" id="10000855" name="inst_EDAE412E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="224" w="32" h="32" xo="848" yo="208" id="10000856" name="inst_CB61AD2B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="224" w="32" h="32" xo="848" yo="208" id="10000857" name="inst_CD578503" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="224" w="32" h="32" xo="848" yo="208" id="10000858" name="inst_3EC92677" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="224" w="32" h="32" xo="848" yo="208" id="10000859" name="inst_1C96DAE6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="224" w="32" h="32" xo="848" yo="208" id="10000860" name="inst_3F9BA706" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="224" w="32" h="32" xo="848" yo="208" id="10000861" name="inst_09199809" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="224" w="32" h="32" xo="848" yo="208" id="10000862" name="inst_8C694D78" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="224" w="32" h="32" xo="848" yo="208" id="10000863" name="inst_4101B54B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="224" w="32" h="32" xo="848" yo="208" id="10000864" name="inst_553639AA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="224" w="32" h="32" xo="848" yo="208" id="10000865" name="inst_4E36BF87" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="192" y="224" w="32" h="32" xo="848" yo="208" id="10000867" name="inst_37A03787" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="160" y="224" w="32" h="32" xo="848" yo="208" id="10000868" name="inst_55B072E6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="160" y="256" w="32" h="32" xo="848" yo="208" id="10000869" name="inst_16283E1C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="160" y="288" w="32" h="32" xo="848" yo="208" id="10000870" name="inst_20596ED9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="160" y="320" w="32" h="32" xo="848" yo="208" id="10000871" name="inst_285440E3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="160" y="352" w="32" h="32" xo="848" yo="208" id="10000872" name="inst_3DEED01D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="160" y="384" w="32" h="32" xo="848" yo="208" id="10000873" name="inst_56A47CF8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="192" y="384" w="32" h="32" xo="848" yo="208" id="10000874" name="inst_F8628686" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="384" w="32" h="32" xo="848" yo="208" id="10000875" name="inst_0981A5BD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="384" w="32" h="32" xo="848" yo="208" id="10000876" name="inst_EBEBE77E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="384" w="32" h="32" xo="848" yo="208" id="10000877" name="inst_0BDCAB8A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="384" w="32" h="32" xo="848" yo="208" id="10000878" name="inst_DF682799" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="384" w="32" h="32" xo="848" yo="208" id="10000879" name="inst_C0CF2C8B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="384" w="32" h="32" xo="848" yo="208" id="10000880" name="inst_784DB4F5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="384" w="32" h="32" xo="848" yo="208" id="10000881" name="inst_C7DB23BC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="384" w="32" h="32" xo="848" yo="208" id="10000882" name="inst_F3BF3921" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="384" w="32" h="32" xo="848" yo="208" id="10000883" name="inst_369CF431" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="384" w="32" h="32" xo="848" yo="208" id="10000884" name="inst_9D2DCA98" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="384" w="32" h="32" xo="848" yo="208" id="10000885" name="inst_36E986BE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="576" y="384" w="32" h="32" xo="848" yo="208" id="10000886" name="inst_E5EB7990" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="608" y="384" w="32" h="32" xo="848" yo="208" id="10000887" name="inst_E33F6D4F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="608" y="352" w="32" h="32" xo="848" yo="208" id="10000888" name="inst_19E0A3C3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="608" y="320" w="32" h="32" xo="848" yo="208" id="10000889" name="inst_0850705F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="608" y="288" w="32" h="32" xo="848" yo="208" id="10000890" name="inst_8057A1C7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="608" y="256" w="32" h="32" xo="848" yo="208" id="10000891" name="inst_58356E3C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="576" y="256" w="32" h="32" xo="848" yo="208" id="10000892" name="inst_FA71D44E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="576" y="288" w="32" h="32" xo="848" yo="208" id="10000893" name="inst_AC682780" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="576" y="320" w="32" h="32" xo="848" yo="208" id="10000894" name="inst_9C0EB5D4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="576" y="352" w="32" h="32" xo="848" yo="208" id="10000895" name="inst_2A93D982" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="352" w="32" h="32" xo="848" yo="208" id="10000896" name="inst_CF7F416F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="352" w="32" h="32" xo="848" yo="208" id="10000897" name="inst_8828542B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="352" w="32" h="32" xo="848" yo="208" id="10000898" name="inst_A3AF895E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="352" w="32" h="32" xo="848" yo="208" id="10000899" name="inst_66105579" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="352" w="32" h="32" xo="848" yo="208" id="10000900" name="inst_26BE7149" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="352" w="32" h="32" xo="848" yo="208" id="10000901" name="inst_C8DD6057" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="352" w="32" h="32" xo="848" yo="208" id="10000902" name="inst_29DD3138" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="352" w="32" h="32" xo="848" yo="208" id="10000903" name="inst_610FCA4C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="352" w="32" h="32" xo="848" yo="208" id="10000904" name="inst_1DD1EC1F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="352" w="32" h="32" xo="848" yo="208" id="10000905" name="inst_894CC138" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="352" w="32" h="32" xo="848" yo="208" id="10000906" name="inst_20012DAB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="192" y="352" w="32" h="32" xo="848" yo="208" id="10000907" name="inst_3AE53E59" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="192" y="320" w="32" h="32" xo="848" yo="208" id="10000908" name="inst_A689A946" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="192" y="288" w="32" h="32" xo="848" yo="208" id="10000909" name="inst_0D501058" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="192" y="256" w="32" h="32" xo="848" yo="208" id="10000910" name="inst_CC5B5FBA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="224" w="32" h="32" xo="848" yo="208" id="10000912" name="inst_6455FB34" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="256" w="32" h="32" xo="848" yo="208" id="10000913" name="inst_CF3DC3EB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="288" w="32" h="32" xo="848" yo="208" id="10000914" name="inst_AA97AF1C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="320" w="32" h="32" xo="848" yo="208" id="10000916" name="inst_0A5D8A89" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="320" w="32" h="32" xo="848" yo="208" id="10000917" name="inst_6EC2483B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="256" w="32" h="32" xo="848" yo="208" id="10000920" name="inst_CC7B194A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="256" w="32" h="32" xo="848" yo="208" id="10000921" name="inst_CC3A9F53" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="288" w="32" h="32" xo="848" yo="208" id="10000922" name="inst_7DBE5371" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="320" w="32" h="32" xo="848" yo="208" id="10000924" name="inst_BA6DC710" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="288" w="32" h="32" xo="848" yo="208" id="10000925" name="inst_A4BC6C46" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="256" w="32" h="32" xo="848" yo="208" id="10000927" name="inst_6AF8AEDB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="256" w="32" h="32" xo="848" yo="208" id="10000928" name="inst_58F0F8CB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="320" w="32" h="32" xo="848" yo="208" id="10000931" name="inst_ACBADAC2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="288" w="32" h="32" xo="848" yo="208" id="10000932" name="inst_12BDD425" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="288" w="32" h="32" xo="848" yo="208" id="10000933" name="inst_3F835FEF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="256" w="32" h="32" xo="848" yo="208" id="10000935" name="inst_2B47341E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="256" w="32" h="32" xo="848" yo="208" id="10000936" name="inst_06768493" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="288" w="32" h="32" xo="848" yo="208" id="10000941" name="inst_F0D4AC5B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="288" w="32" h="32" xo="848" yo="208" id="10000942" name="inst_A16A1498" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="320" w="32" h="32" xo="848" yo="208" id="10000944" name="inst_C77F6CC3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="320" w="32" h="32" xo="848" yo="208" id="10000945" name="inst_DE6C5E80" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="320" w="32" h="32" xo="848" yo="208" id="10000946" name="inst_3D0D847F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="320" w="32" h="32" xo="848" yo="208" id="10000947" name="inst_D4E87D45" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="320" w="32" h="32" xo="848" yo="208" id="10000948" name="inst_6F89E19B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="288" w="32" h="32" xo="848" yo="208" id="10000949" name="inst_BC7B72EC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="288" w="32" h="32" xo="848" yo="208" id="10000950" name="inst_E05C881C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="256" w="32" h="32" xo="848" yo="208" id="10000951" name="inst_1B2EFDC5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="256" w="32" h="32" xo="848" yo="208" id="10000952" name="inst_DC951905" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="256" w="32" h="32" xo="848" yo="208" id="10000953" name="inst_BB78DE76" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="256" w="32" h="32" xo="848" yo="208" id="10000954" name="inst_4896B77E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="288" w="32" h="32" xo="848" yo="208" id="10000955" name="inst_444D0E9F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="288" w="32" h="32" xo="848" yo="208" id="10000956" name="inst_D2AF9D42" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="320" w="32" h="32" xo="848" yo="208" id="10000957" name="inst_EE4BE4CB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="320" w="32" h="32" xo="848" yo="208" id="10000958" name="inst_5FA0655E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="160" y="64" w="64" h="32" xo="832" yo="128" id="10001067" name="inst_C0334DF7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="64" w="64" h="32" xo="832" yo="128" id="10001068" name="inst_F810CD9A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="64" w="64" h="32" xo="832" yo="128" id="10001069" name="inst_35479C4C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="160" y="32" w="64" h="32" xo="832" yo="128" id="10001070" name="inst_F1FF486E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="32" w="64" h="32" xo="832" yo="128" id="10001071" name="inst_800EAAC5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="32" w="64" h="32" xo="832" yo="128" id="10001072" name="inst_1600C1F4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="32" w="64" h="32" xo="832" yo="128" id="10001073" name="inst_B370ED2C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="64" w="64" h="32" xo="832" yo="128" id="10001074" name="inst_9610B535" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="64" w="64" h="32" xo="832" yo="128" id="10001075" name="inst_04A7C760" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="32" w="64" h="32" xo="832" yo="128" id="10001076" name="inst_EF67B706" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="32" w="64" h="32" xo="832" yo="128" id="10001077" name="inst_CA49ABB5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="64" w="64" h="32" xo="832" yo="128" id="10001078" name="inst_72BB0588" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="64" w="64" h="32" xo="832" yo="128" id="10001080" name="inst_AC54408E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="32" w="64" h="32" xo="832" yo="128" id="10001081" name="inst_503F48D2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="608" y="32" w="64" h="32" xo="832" yo="128" id="10001084" name="inst_B636FFFE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="608" y="64" w="64" h="32" xo="832" yo="128" id="10001085" name="inst_8526FC2D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="160" y="0" w="64" h="32" xo="832" yo="80" id="10001089" name="inst_B5A82E75" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="0" w="64" h="32" xo="832" yo="80" id="10001090" name="inst_E4EFE4A9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="0" w="64" h="32" xo="832" yo="80" id="10001091" name="inst_A4FE4CD8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="0" w="64" h="32" xo="832" yo="80" id="10001092" name="inst_96DE36C0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="0" w="64" h="32" xo="832" yo="80" id="10001093" name="inst_2788FF30" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="0" w="64" h="32" xo="832" yo="80" id="10001094" name="inst_058982E5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="0" w="64" h="32" xo="832" yo="80" id="10001095" name="inst_B5F74726" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="128" y="0" w="64" h="32" xo="832" yo="80" id="10001096" name="inst_762F4DE5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="608" y="0" w="64" h="32" xo="832" yo="80" id="10001097" name="inst_9504DED8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="96" y="96" w="32" h="32" xo="832" yo="0" id="10001098" name="inst_139CCD46" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="96" y="128" w="32" h="32" xo="832" yo="0" id="10001099" name="inst_14CA726A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="96" y="160" w="32" h="32" xo="832" yo="0" id="10001100" name="inst_0DF9BBD5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="96" y="192" w="32" h="32" xo="832" yo="0" id="10001101" name="inst_42D8406B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="96" y="224" w="32" h="32" xo="832" yo="0" id="10001102" name="inst_862A3C42" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="96" y="256" w="32" h="32" xo="832" yo="0" id="10001103" name="inst_DD4A083C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="96" y="288" w="32" h="32" xo="832" yo="0" id="10001104" name="inst_6FA2BA9C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="96" y="320" w="32" h="32" xo="832" yo="0" id="10001105" name="inst_F40DEE00" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="96" y="352" w="32" h="32" xo="832" yo="0" id="10001106" name="inst_E1500687" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="96" y="384" w="32" h="32" xo="832" yo="0" id="10001107" name="inst_960DB9EE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="672" y="96" w="32" h="32" xo="832" yo="0" id="10001108" name="inst_5E05CDA1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="672" y="128" w="32" h="32" xo="832" yo="0" id="10001109" name="inst_265A26D6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="672" y="160" w="32" h="32" xo="832" yo="0" id="10001110" name="inst_F820DCC6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="672" y="192" w="32" h="32" xo="832" yo="0" id="10001111" name="inst_22449CE8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="672" y="224" w="32" h="32" xo="832" yo="0" id="10001112" name="inst_26E99C36" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="672" y="256" w="32" h="32" xo="832" yo="0" id="10001113" name="inst_897B6D4F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="672" y="288" w="32" h="32" xo="832" yo="0" id="10001114" name="inst_2BC99156" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="672" y="320" w="32" h="32" xo="832" yo="0" id="10001115" name="inst_CED388BF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="672" y="352" w="32" h="32" xo="832" yo="0" id="10001116" name="inst_51422F90" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="672" y="384" w="32" h="32" xo="832" yo="0" id="10001117" name="inst_E4F0E015" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="96" y="64" w="32" h="32" xo="832" yo="0" id="10001118" name="inst_B9C6DD8F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="96" y="32" w="32" h="32" xo="832" yo="0" id="10001119" name="inst_8DEABA52" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="96" y="0" w="32" h="32" xo="832" yo="0" id="10001120" name="inst_57AB1A6B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="672" y="64" w="32" h="32" xo="832" yo="0" id="10001121" name="inst_F776744F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="672" y="32" w="32" h="32" xo="832" yo="0" id="10001122" name="inst_4726838E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="672" y="0" w="32" h="32" xo="832" yo="0" id="10001123" name="inst_91B08D3D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="96" y="416" w="32" h="32" xo="832" yo="0" id="10001124" name="inst_19579CCD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="96" y="448" w="32" h="32" xo="832" yo="0" id="10001125" name="inst_52724EC9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="128" y="448" w="32" h="32" xo="832" yo="0" id="10001126" name="inst_8028F6F2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="160" y="448" w="32" h="32" xo="832" yo="0" id="10001127" name="inst_FFBCDDAC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="192" y="448" w="32" h="32" xo="832" yo="0" id="10001128" name="inst_2B559D52" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="448" w="32" h="32" xo="832" yo="0" id="10001129" name="inst_D17262AB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="448" w="32" h="32" xo="832" yo="0" id="10001130" name="inst_79908E11" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="448" w="32" h="32" xo="832" yo="0" id="10001131" name="inst_73061AF0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="448" w="32" h="32" xo="832" yo="0" id="10001132" name="inst_0FD786CA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="448" w="32" h="32" xo="832" yo="0" id="10001133" name="inst_BF394543" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="448" w="32" h="32" xo="832" yo="0" id="10001134" name="inst_5E14D4FC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="448" w="32" h="32" xo="832" yo="0" id="10001135" name="inst_B990DD21" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="448" w="32" h="32" xo="832" yo="0" id="10001136" name="inst_630CD499" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="448" w="32" h="32" xo="832" yo="0" id="10001137" name="inst_ADD759AE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="576" y="448" w="32" h="32" xo="832" yo="0" id="10001138" name="inst_FCAC8FD6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="640" y="448" w="32" h="32" xo="832" yo="0" id="10001139" name="inst_853A08A6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="608" y="448" w="32" h="32" xo="832" yo="0" id="10001140" name="inst_8B047AE4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="672" y="448" w="32" h="32" xo="832" yo="0" id="10001141" name="inst_FF03B74B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="672" y="416" w="32" h="32" xo="832" yo="0" id="10001142" name="inst_37393464" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="96" y="480" w="32" h="32" xo="848" yo="112" id="10001143" name="inst_E4135F20" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="128" y="480" w="32" h="32" xo="848" yo="112" id="10001144" name="inst_C7268BC7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="96" y="512" w="32" h="32" xo="848" yo="112" id="10001145" name="inst_60574FA3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="128" y="512" w="32" h="32" xo="848" yo="112" id="10001146" name="inst_6C36A374" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="160" y="480" w="32" h="32" xo="848" yo="112" id="10001147" name="inst_785B4D1F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="160" y="512" w="32" h="32" xo="848" yo="112" id="10001148" name="inst_A7415977" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="192" y="480" w="32" h="32" xo="848" yo="112" id="10001149" name="inst_D9F193AA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="192" y="512" w="32" h="32" xo="848" yo="112" id="10001150" name="inst_08A21449" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="480" w="32" h="32" xo="848" yo="112" id="10001151" name="inst_157D9C89" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="512" w="32" h="32" xo="848" yo="112" id="10001152" name="inst_B17542B4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="480" w="32" h="32" xo="848" yo="112" id="10001153" name="inst_7495B0C9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="512" w="32" h="32" xo="848" yo="112" id="10001154" name="inst_8759016A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="480" w="32" h="32" xo="848" yo="112" id="10001155" name="inst_7AFF023A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="512" w="32" h="32" xo="848" yo="112" id="10001156" name="inst_05BA9C0D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="480" w="32" h="32" xo="848" yo="112" id="10001157" name="inst_249289F6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="512" w="32" h="32" xo="848" yo="112" id="10001158" name="inst_DB63B691" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="480" w="32" h="32" xo="848" yo="112" id="10001159" name="inst_26D44553" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="512" w="32" h="32" xo="848" yo="112" id="10001160" name="inst_9CF79D5E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="480" w="32" h="32" xo="848" yo="112" id="10001161" name="inst_F2CE55F4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="512" w="32" h="32" xo="848" yo="112" id="10001162" name="inst_344E0E81" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="480" w="32" h="32" xo="848" yo="112" id="10001163" name="inst_C783793A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="512" w="32" h="32" xo="848" yo="112" id="10001164" name="inst_29AE8009" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="480" w="32" h="32" xo="848" yo="112" id="10001165" name="inst_356090E8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="512" w="32" h="32" xo="848" yo="112" id="10001166" name="inst_A5EEC919" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="480" w="32" h="32" xo="848" yo="112" id="10001167" name="inst_A147523F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="512" w="32" h="32" xo="848" yo="112" id="10001168" name="inst_13B6744F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="576" y="480" w="32" h="32" xo="848" yo="112" id="10001169" name="inst_63B6147A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="576" y="512" w="32" h="32" xo="848" yo="112" id="10001170" name="inst_F9CD7F75" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="608" y="480" w="32" h="32" xo="848" yo="112" id="10001171" name="inst_07FBAB40" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="608" y="512" w="32" h="32" xo="848" yo="112" id="10001172" name="inst_B80046E7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="640" y="480" w="32" h="32" xo="848" yo="112" id="10001173" name="inst_873351D6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="640" y="512" w="32" h="32" xo="848" yo="112" id="10001174" name="inst_FD059D1F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="672" y="480" w="32" h="32" xo="848" yo="112" id="10001175" name="inst_275E8DA1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="672" y="512" w="32" h="32" xo="848" yo="112" id="10001176" name="inst_98FEBE88" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="448" w="32" h="32" xo="848" yo="208" id="10001177" name="inst_619CB8B7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="448" w="32" h="32" xo="848" yo="208" id="10001178" name="inst_48D65749" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="480" w="32" h="32" xo="848" yo="208" id="10001179" name="inst_BB3E5CFB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="480" w="32" h="32" xo="848" yo="208" id="10001180" name="inst_74372358" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="416" w="32" h="32" xo="848" yo="208" id="10001183" name="inst_08D824A8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="416" w="32" h="32" xo="848" yo="208" id="10001184" name="inst_403A64BE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="128" y="32" w="32" h="32" xo="848" yo="112" id="10001186" name="inst_B4809F37" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="128" y="64" w="32" h="32" xo="848" yo="112" id="10001187" name="inst_528F88DE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="160" w="32" h="32" xo="384" yo="1120" id="10000959" name="inst_9700D984" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="160" w="32" h="32" xo="416" yo="1120" id="10000960" name="inst_D4CDCE27" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="352" w="32" h="32" xo="384" yo="1152" id="10000961" name="inst_CF707754" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="352" w="32" h="32" xo="416" yo="1152" id="10000962" name="inst_C5EFCB45" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="160" w="32" h="32" xo="400" yo="1120" id="10000963" name="inst_F9238470" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="160" w="32" h="32" xo="400" yo="1120" id="10000964" name="inst_7A037BE4" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="160" w="32" h="32" xo="400" yo="1120" id="10000965" name="inst_B318B8DF" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="160" w="32" h="32" xo="400" yo="1120" id="10000966" name="inst_604172D1" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="160" w="32" h="32" xo="400" yo="1120" id="10000967" name="inst_6904FAF0" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="160" w="32" h="32" xo="400" yo="1120" id="10000968" name="inst_4EC0252E" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="160" w="32" h="32" xo="400" yo="1120" id="10000969" name="inst_571B648C" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="160" w="32" h="32" xo="400" yo="1120" id="10000970" name="inst_9B91A897" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="160" w="32" h="32" xo="400" yo="1120" id="10000971" name="inst_C15F8269" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="192" w="32" h="32" xo="400" yo="1136" id="10000972" name="inst_BF57EE26" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="192" w="32" h="32" xo="400" yo="1136" id="10000973" name="inst_B41180F9" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="192" w="32" h="32" xo="400" yo="1136" id="10000974" name="inst_17BBE33A" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="192" w="32" h="32" xo="400" yo="1136" id="10000975" name="inst_F861268C" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="192" w="32" h="32" xo="400" yo="1136" id="10000976" name="inst_FFCDCEF6" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="192" w="32" h="32" xo="400" yo="1136" id="10000977" name="inst_DB19A934" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="192" w="32" h="32" xo="400" yo="1136" id="10000978" name="inst_686B73A7" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="192" w="32" h="32" xo="400" yo="1136" id="10000979" name="inst_2A284AFE" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="192" w="32" h="32" xo="400" yo="1136" id="10000980" name="inst_BF2AEE22" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="224" w="32" h="32" xo="400" yo="1136" id="10000981" name="inst_4E86EF12" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="224" w="32" h="32" xo="400" yo="1136" id="10000982" name="inst_1C4E6F2F" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="224" w="32" h="32" xo="400" yo="1136" id="10000983" name="inst_EB5F469E" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="224" w="32" h="32" xo="400" yo="1136" id="10000984" name="inst_8E04891A" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="224" w="32" h="32" xo="400" yo="1136" id="10000985" name="inst_C4165F61" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="224" w="32" h="32" xo="400" yo="1136" id="10000986" name="inst_D2DD45F1" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="224" w="32" h="32" xo="400" yo="1136" id="10000987" name="inst_AB57F602" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="224" w="32" h="32" xo="400" yo="1136" id="10000988" name="inst_CF41ECAD" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="224" w="32" h="32" xo="400" yo="1136" id="10000989" name="inst_189FCD53" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="256" w="32" h="32" xo="400" yo="1136" id="10000990" name="inst_E4DA38C3" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="256" w="32" h="32" xo="400" yo="1136" id="10000991" name="inst_D4DBBAF8" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="256" w="32" h="32" xo="400" yo="1136" id="10000992" name="inst_B6DF229C" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="256" w="32" h="32" xo="400" yo="1136" id="10000993" name="inst_E90F3D8F" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="256" w="32" h="32" xo="400" yo="1136" id="10000994" name="inst_C9395D20" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="256" w="32" h="32" xo="400" yo="1136" id="10000996" name="inst_7CD37564" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="256" w="32" h="32" xo="400" yo="1136" id="10000997" name="inst_AF314408" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="256" w="32" h="32" xo="400" yo="1136" id="10000998" name="inst_4ADF507C" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="288" w="32" h="32" xo="400" yo="1136" id="10000999" name="inst_F2923269" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="288" w="32" h="32" xo="400" yo="1136" id="10001000" name="inst_E0124E53" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="288" w="32" h="32" xo="400" yo="1136" id="10001004" name="inst_6F04F03F" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="288" w="32" h="32" xo="400" yo="1136" id="10001005" name="inst_F1AF4DC9" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="288" w="32" h="32" xo="400" yo="1136" id="10001006" name="inst_95C99AC6" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="288" w="32" h="32" xo="400" yo="1136" id="10001007" name="inst_64F7C4BA" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="320" w="32" h="32" xo="400" yo="1136" id="10001008" name="inst_A18631DA" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="320" w="32" h="32" xo="400" yo="1136" id="10001009" name="inst_D5789403" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="320" w="32" h="32" xo="400" yo="1136" id="10001010" name="inst_8AC350AD" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="320" w="32" h="32" xo="400" yo="1136" id="10001011" name="inst_5D4C671E" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="288" w="32" h="32" xo="400" yo="1136" id="10001012" name="inst_CBBA7651" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="256" w="32" h="32" xo="400" yo="1136" id="10001013" name="inst_3515D776" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="288" w="32" h="32" xo="400" yo="1136" id="10001014" name="inst_7DA8896C" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="320" w="32" h="32" xo="400" yo="1136" id="10001019" name="inst_192B425B" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="320" w="32" h="32" xo="400" yo="1136" id="10001020" name="inst_85A8F863" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="320" w="32" h="32" xo="400" yo="1136" id="10001021" name="inst_B5CEAA82" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="320" w="32" h="32" xo="400" yo="1136" id="10001022" name="inst_C99F30A8" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="320" w="32" h="32" xo="400" yo="1136" id="10001023" name="inst_FD3BFC1A" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="192" w="32" h="32" xo="416" yo="1136" id="10001024" name="inst_AC63D0C4" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="224" w="32" h="32" xo="416" yo="1136" id="10001025" name="inst_16848DF0" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="256" w="32" h="32" xo="416" yo="1136" id="10001026" name="inst_31718A25" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="288" w="32" h="32" xo="416" yo="1136" id="10001027" name="inst_CA4E9632" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="320" w="32" h="32" xo="416" yo="1136" id="10001028" name="inst_2DA9ED47" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="352" w="32" h="32" xo="400" yo="1152" id="10001029" name="inst_E7EB0952" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="352" w="32" h="32" xo="400" yo="1152" id="10001030" name="inst_7F332D64" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="352" w="32" h="32" xo="400" yo="1152" id="10001031" name="inst_5294FBCE" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="352" w="32" h="32" xo="400" yo="1152" id="10001032" name="inst_9B1BD4E9" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="352" w="32" h="32" xo="400" yo="1152" id="10001033" name="inst_F7AA413C" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="352" w="32" h="32" xo="400" yo="1152" id="10001034" name="inst_34168FDC" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="352" w="32" h="32" xo="400" yo="1152" id="10001035" name="inst_F592608F" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="352" w="32" h="32" xo="400" yo="1152" id="10001036" name="inst_5C4F9C42" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="352" w="32" h="32" xo="400" yo="1152" id="10001037" name="inst_D174BF9B" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="192" w="32" h="32" xo="384" yo="1136" id="10001039" name="inst_C4CCC2F5" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="224" w="32" h="32" xo="384" yo="1136" id="10001040" name="inst_39EF875C" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="256" w="32" h="32" xo="384" yo="1136" id="10001041" name="inst_23DB473D" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="288" w="32" h="32" xo="384" yo="1136" id="10001042" name="inst_93616F91" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="224" y="320" w="32" h="32" xo="384" yo="1136" id="10001043" name="inst_9DAF4959" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="640" y="64" w="32" h="64" xo="992" yo="1792" id="10001045" name="inst_BEC206EF" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="544" y="96" w="64" h="32" xo="768" yo="1920" id="10001046" name="inst_E9506270" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="288" w="32" h="32" xo="400" yo="1136" id="10001066" name="inst_B654F234" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="192" y="32" w="32" h="48" xo="160" yo="480" id="10001188" name="inst_F555CA8C" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="576" y="32" w="32" h="48" xo="160" yo="480" id="10001189" name="inst_EB42D97F" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="32" w="32" h="48" xo="160" yo="480" id="10001190" name="inst_686B71D8" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="32" w="32" h="48" xo="160" yo="480" id="10001191" name="inst_16CB2CA1" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="256" y="32" w="32" h="32" xo="512" yo="1856" id="10001200" name="inst_52FC3D9D" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="32" w="32" h="32" xo="512" yo="1856" id="10001201" name="inst_34B4BD3B" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="512" y="32" w="32" h="32" xo="512" yo="1856" id="10001202" name="inst_E14904E6" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="640" y="32" w="32" h="32" xo="512" yo="1856" id="10001203" name="inst_E374B030" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="128" y="32" w="32" h="32" xo="512" yo="1856" id="10001204" name="inst_1D5AF75A" depth="900000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="224" w="32" h="32" xo="336" yo="1152" id="10001048" name="inst_8C39FDA4" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="224" w="32" h="32" xo="336" yo="1152" id="10001049" name="inst_6CC98887" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="224" w="32" h="32" xo="336" yo="1152" id="10001050" name="inst_591E0433" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="416" y="224" w="32" h="32" xo="336" yo="1152" id="10001051" name="inst_82B7CCFC" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="448" y="224" w="32" h="32" xo="336" yo="1152" id="10001052" name="inst_3554B8A9" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="224" w="32" h="32" xo="352" yo="1152" id="10001053" name="inst_792EB190" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="224" w="32" h="32" xo="320" yo="1152" id="10001054" name="inst_6ED3717D" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="192" w="32" h="32" xo="320" yo="1120" id="10001055" name="inst_D7656BE3" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="160" w="32" h="32" xo="320" yo="1120" id="10001056" name="inst_786D5513" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="128" w="32" h="32" xo="320" yo="1120" id="10001057" name="inst_537FD376" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="160" w="32" h="32" xo="352" yo="1120" id="10001058" name="inst_16579C14" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="192" w="32" h="32" xo="352" yo="1120" id="10001059" name="inst_212FA9A4" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="128" w="32" h="32" xo="352" yo="1120" id="10001060" name="inst_944E5F71" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="64" w="64" h="64" xo="576" yo="1152" id="10001061" name="inst_00132110" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="64" w="96" h="64" xo="544" yo="1088" id="10001063" name="inst_AA90076E" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="128" y="96" w="64" h="64" xo="704" yo="1088" id="10001064" name="inst_B7682D39" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="192" y="64" w="96" h="112" xo="768" yo="1104" id="10001065" name="inst_9D074FB1" depth="800000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="160" w="32" h="32" xo="896" yo="1600" id="10001192" name="inst_5B03EB50" depth="700000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="288" y="192" w="32" h="32" xo="928" yo="1600" id="10001193" name="inst_E636057B" depth="700000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="480" y="192" w="32" h="32" xo="928" yo="1664" id="10001195" name="inst_314B20C3" depth="700000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="320" y="224" w="32" h="32" xo="960" yo="1536" id="10001196" name="inst_D4128840" depth="700000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="352" y="224" w="32" h="32" xo="928" yo="1536" id="10001197" name="inst_8711FAC3" depth="700000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="384" y="224" w="64" h="32" xo="704" yo="1856" id="10001198" name="inst_77BCD78A" depth="700000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="RPGtileset" x="576" y="128" w="96" h="32" xo="416" yo="1920" id="10001199" name="inst_57610C41" depth="700000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+  </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>

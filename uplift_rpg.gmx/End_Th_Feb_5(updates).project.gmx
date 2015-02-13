@@ -9,15 +9,7 @@
     <sprite>sprites\sprite_enemy</sprite>
     <sprite>sprites\sprite_wall</sprite>
     <sprite>sprites\sprite_block_push</sprite>
-    <sprite>sprites\sprite_exit_leftright</sprite>
-    <sprite>sprites\sprite_exit_updown</sprite>
-    <sprite>sprites\sprite_gold_door</sprite>
-    <sprite>sprites\sprite_tallwall</sprite>
-    <sprite>sprites\sprite_expr</sprite>
     <sprite>sprites\sprite_arrow</sprite>
-    <sprite>sprites\sprite_gold_key</sprite>
-    <sprite>sprites\sprite_health_potion</sprite>
-    <sprite>sprites\sprite_floor</sprite>
     <sprites name="player">
       <sprite>sprites\sprite_player_right</sprite>
       <sprite>sprites\sprite_player_left</sprite>
@@ -29,12 +21,38 @@
       <sprite>sprites\sprite_player_right_sword</sprite>
     </sprites>
     <sprite>sprites\sprite_slash</sprite>
-    <sprite>sprites\sprite_large_tree</sprite>
-    <sprite>sprites\sprite_thatch_roof</sprite>
-    <sprite>sprites\sprite_luffy_punch_left</sprite>
+    <sprites name="doors">
+      <sprite>sprites\sprite_gold_door</sprite>
+      <sprite>sprites\sprite_red_door</sprite>
+    </sprites>
+    <sprites name="inventory">
+      <sprite>sprites\sprite_inventory_grid</sprite>
+      <sprite>sprites\sprite_red_key</sprite>
+      <sprite>sprites\sprite_gold_key</sprite>
+      <sprite>sprites\sprite_health_potion</sprite>
+    </sprites>
+    <sprites name="tiles">
+      <sprite>sprites\sprite_water_center</sprite>
+      <sprite>sprites\sprite_floor</sprite>
+    </sprites>
+    <sprites name="canopy">
+      <sprite>sprites\sprite_large_tree</sprite>
+      <sprite>sprites\sprite_thatch_roof</sprite>
+    </sprites>
+    <sprites name="unused">
+      <sprite>sprites\sprite_exit_leftright</sprite>
+      <sprite>sprites\sprite_exit_updown</sprite>
+    </sprites>
+    <sprites name="collected_items">
+      <sprite>sprites\sprite_expr</sprite>
+      <sprite>sprites\sprite_coin</sprite>
+    </sprites>
+    <sprite>sprites\sprite_solid</sprite>
+    <sprite>sprites\sprite_room_switch</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
+    <background>background\RPGtileset</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_guard</path>
@@ -46,44 +64,74 @@
     <script>scripts\script_dumb_slasher.gml</script>
     <script>scripts\script_archer.gml</script>
     <script>scripts\script_game_load.gml</script>
-    <script>scripts\script7.gml</script>
     <script>scripts\script_shadow.gml</script>
+    <script>scripts\script_add_inventory.gml</script>
+    <script>scripts\script_check_remove_inventory.gml</script>
+    <script>scripts\script10.gml</script>
+    <script>scripts\script_draw_minimap.gml</script>
+    <script>scripts\script_room_switch.gml</script>
+    <script>scripts\script_world_map_switch.gml</script>
+    <script>scripts\script_pause.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_stats</font>
   </fonts>
   <objects name="objects">
     <object>objects\object_player</object>
-    <object>objects\object_wall</object>
-    <object>objects\object_expr</object>
-    <object>objects\object_expr_from_enemy</object>
     <object>objects\object_globals</object>
     <object>objects\object_stats</object>
-    <object>objects\object_enemy_guard</object>
-    <object>objects\object_archer</object>
-    <object>objects\object_enemy_dumb</object>
-    <object>objects\object_enemy_mohamed</object>
     <object>objects\object_arrow</object>
     <object>objects\object_enemy_arrow</object>
     <object>objects\object_slash</object>
     <object>objects\object_enemyslash</object>
-    <object>objects\object_enemy</object>
-    <object>objects\object_gold_door</object>
-    <object>objects\object_gold_key</object>
-    <object>objects\object_health_potion</object>
     <object>objects\object_room_switch_right</object>
+    <object>objects\object_block_push</object>
     <object>objects\object_room_switch_left</object>
     <object>objects\object_room_switch_down</object>
     <object>objects\object_room_switch_up</object>
-    <object>objects\object_import_archer</object>
-    <object>objects\object_floor</object>
-    <object>objects\object_block_push</object>
-    <object>objects\object_large_tree</object>
-    <object>objects\object_thatch_roof</object>
-    <object>objects\object_game_controller</object>
+    <objects name="doors">
+      <object>objects\object_gold_door</object>
+      <object>objects\object_red_door</object>
+    </objects>
+    <objects name="inventory_items">
+      <object>objects\object_gold_key</object>
+      <object>objects\object_red_key</object>
+      <object>objects\object_health_potion</object>
+      <object>objects\object_inventory_manager</object>
+    </objects>
+    <objects name="enemies">
+      <object>objects\object_enemy_mohamed</object>
+      <object>objects\object_archer</object>
+      <object>objects\object_enemy_guard</object>
+      <object>objects\object_enemy_dumb</object>
+      <object>objects\object_enemy_parent</object>
+    </objects>
+    <objects name="collected_items">
+      <object>objects\object_coin</object>
+      <object>objects\object_expr_from_enemy</object>
+      <object>objects\object_expr</object>
+      <object>objects\object_coin_from_enemy</object>
+    </objects>
+    <objects name="map_solids">
+      <object>objects\object_wall</object>
+    </objects>
+    <objects name="map_tiles">
+      <object>objects\object_floor</object>
+    </objects>
+    <objects name="map_canopy">
+      <object>objects\object_thatch_roof</object>
+      <object>objects\object_large_tree</object>
+    </objects>
+    <objects name="room_switches">
+      <object>objects\object_switch_blacksmith</object>
+      <object>objects\object_switch_world_map</object>
+    </objects>
+    <object>objects\object_pause_screen_manager</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\room_1</room>
+    <room>rooms\room_world_map</room>
+    <room>rooms\room_blacksmith</room>
+    <room>rooms\room_pause</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

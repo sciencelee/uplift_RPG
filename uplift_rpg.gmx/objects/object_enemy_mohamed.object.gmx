@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>object_enemy</parentName>
+  <parentName>object_enemy_parent</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -33,6 +33,7 @@
     defense_enemy = 1;
     expr_enemy = 6;
     enemy_canSlash = true;
+    coins = random_range(1,5);
 }
 </string>
           </argument>
