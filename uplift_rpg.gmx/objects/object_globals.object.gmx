@@ -45,6 +45,9 @@
     
     //game tracking variables
     global.paused = false;
+    global.pausex = 0;
+    global.pausey = 0;
+    global.roomcamefrom = 0;
 }
 </string>
           </argument>

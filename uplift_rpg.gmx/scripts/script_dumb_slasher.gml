@@ -10,4 +10,3 @@
     else mp_linear_step_object(object_player.x, object_player.y, speed_enemy_current, all);
 
 }  
-

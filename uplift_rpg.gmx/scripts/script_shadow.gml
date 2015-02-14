@@ -9,11 +9,10 @@ var offset = argument0;
 
 if (argument1)
 {
-    draw_sprite_ext(sprite_index, sprite_index, x, y+ offset, 1, 1, image_angle, c_black, 0.4);
+    draw_sprite_ext(sprite_index, image_index, x, y+ offset, 1, 1, image_angle, c_black, 0.4);
 }
 else
 {
     draw_sprite_ext(sprite_index, 0, x, y+ offset, 1, 1, image_angle, c_black, 0.4);
 }
 draw_self();
-
