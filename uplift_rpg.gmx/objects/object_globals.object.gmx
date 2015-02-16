@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>{
+            <string>
+{
     //player_stats
     global.level = 1;
     global.hp = 10;
@@ -45,8 +46,8 @@
     
     //game tracking variables
     global.paused = false;
-    global.pausex = 0;
-    global.pausey = 0;
+    global.pausex = 100;
+    global.pausey = 100;
     global.roomcamefrom = 0;
 }
 </string>
@@ -78,6 +79,11 @@
         global.hp = global.maxhp;
         global.expr = global.expr-global.maxexpr;
         global.maxexpr *= 2;
+    }
+    if (room != room_intro)
+    {
+        x = object_player.x;
+        y = object_player.y;
     }
 }
 
