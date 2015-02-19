@@ -74,6 +74,9 @@
       <sprite>sprites\sprite_ogre_flex_left</sprite>
       <sprite>sprites\sprite_ogre_flex_down</sprite>
     </sprites>
+    <sprites name="merchant_items">
+      <sprite>sprites\sprite_magic</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -103,10 +106,13 @@
       <script>scripts\scr_create_button.gml</script>
     </scripts>
     <script>scripts\script_start_button.gml</script>
+    <script>scripts\script_quit.gml</script>
+    <script>scripts\script_load_ini.gml</script>
     <script>scripts\script_enemy_slash.gml</script>
     <script>scripts\script_save_ini.gml</script>
-    <script>scripts\script_load_ini.gml</script>
-    <script>scripts\script_quit.gml</script>
+    <script>scripts\script_remove_open_doors.gml</script>
+    <script>scripts\script_remove_used_keys.gml</script>
+    <script>scripts\script21.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_stats</font>
@@ -163,6 +169,12 @@
       <object>objects\object_switch_world_map</object>
     </objects>
     <object>objects\obj_button</object>
+    <objects name="NPCs">
+      <object>objects\object_NPC</object>
+    </objects>
+    <objects name="merchant_items">
+      <object>objects\object_magic</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room_intro</room>

@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>0</persistent>
+  <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,12 +25,56 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>instance_activate_all();
-instance_deactivate_region(view_xview[0] - 64, view_yview[0] - 64, view_xview[0] + 864, view_hview + 672, false, true);
- x = view_xview[0];
+            <string> x = view_xview[0];
  y = view_yview[0];
 
+
+instance_activate_all();
+instance_deactivate_region(view_xview[0] - 64, view_yview[0] - 64, view_xview[0] + 864, view_yview[0] + 672, false, true);
+
 </string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="4">
+      <action>
+        <libid>1</libid>
+        <id>601</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>9</kind>
+            <script>script_remove_open_doors</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>

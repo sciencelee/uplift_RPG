@@ -8,6 +8,7 @@ argument4 -- player.y when returning to world map on exit (global.mapy)
 
 global.mapx = object_player.xprevious;
 global.mapy = object_player.yprevious;
+instance_activate_all();
 
 with(other)
 {
@@ -18,4 +19,3 @@ with(other)
     x = argument1;
     y = argument2;
 }
-

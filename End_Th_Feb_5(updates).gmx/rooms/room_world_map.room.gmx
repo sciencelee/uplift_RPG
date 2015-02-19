@@ -10,8 +10,7 @@
   <persistent>-1</persistent>
   <colour>0</colour>
   <showcolour>0</showcolour>
-  <code>instance_create(0,0,object_stats);
-instance_create(0,0,object_enemy_controller);</code>
+  <code></code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -53,14 +52,14 @@ instance_create(0,0,object_enemy_controller);</code>
   </views>
   <instances>
     <instance objName="object_enemy_mohamed" x="2368" y="352" name="inst_01BF2F2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_enemy_mohamed" x="544" y="448" name="inst_BB245AA0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_NPC" x="64" y="384" name="inst_60C4B92D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_wall" x="384" y="288" name="inst_939D396A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_red_key" x="608" y="384" name="inst_CA63DC13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_red_key" x="288" y="416" name="inst_CA63DC13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_gold_door" x="224" y="288" name="inst_5A5C300E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_gold_key" x="224" y="384" name="inst_F04872E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_gold_key" x="224" y="416" name="inst_F04872E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_switch_blacksmith" x="224" y="288" name="inst_4D419605" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_archer" x="512" y="192" name="inst_B6F5F774" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_red_door" x="608" y="288" name="inst_4298A169" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="96" y="192" name="inst_2A62C462" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_wall" x="384" y="192" name="inst_7F588AFC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_enemy_mohamed" x="1376" y="352" name="inst_A085C6E4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_wall" x="64" y="288" name="inst_6A93DF49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_wall" x="320" y="256" name="inst_5335B7B8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -103,8 +102,7 @@ instance_create(0,0,object_enemy_controller);</code>
     <instance objName="object_wall" x="352" y="288" name="inst_42729B17" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_wall" x="352" y="256" name="inst_F264D013" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="object_wall" x="64" y="192" name="inst_30179A8B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="384" y="192" name="inst_7F588AFC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="object_wall" x="96" y="192" name="inst_2A62C462" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="object_red_door" x="384" y="384" name="inst_60F9A9BF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background4" x="224" y="320" w="32" h="32" xo="144" yo="144" id="10001370" name="inst_7A9706EB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

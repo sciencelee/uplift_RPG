@@ -76,8 +76,8 @@ y_offset = 0;  // how far down the text is drawn.  The rectangle just starts at 
         <arguments>
           <argument>
             <kind>1</kind>
-            <string> x = view_xview[0];
-    y = view_yview[0];
+            <string>x = view_xview[0];
+y = view_yview[0];
 </string>
           </argument>
         </arguments>

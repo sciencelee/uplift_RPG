@@ -2,9 +2,9 @@
 <object>
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
-  <visible>0</visible>
+  <visible>-1</visible>
   <depth>0</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,32 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>if (!ds_exists(global.open_door_list, ds_type_list))
 {
-    //player_stats
-    global.level = 1;
-    global.hp = 10;
-    
-    global.gold = 0;
-    global.maxhp = 10;
-    global.expr = 0;
-    global.maxexpr = 2;
-    
-    //player attributes
-    global.sword = 1;
-    global.arrow = 1;
-    global.defense = 1;
-    global.magic = 0;
-    
-    // room tracking variables to return to main map correctly
-    global.mapx=0;
-    global.mapy=0;
-    
-    //game tracking variables
-    global.paused = false;
-    global.pausex = 100;
-    global.pausey = 100;
-    global.roomcamefrom = 0;
+    global.open_door_list = ds_list_create();
 }
 </string>
           </argument>
@@ -74,22 +51,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>{
-    if(global.expr &gt;= global.maxexpr) {
-        global.level+=1;
-        global.maxhp+=5;
-        global.hp = global.maxhp;
-        global.expr = global.expr-global.maxexpr;
-        global.maxexpr *= 2;
-    }
-    
-    if (room != room_intro)
-    {
-        x = view_xview[0];
-        y = view_yview[0];
-    }
-}
-
+            <string>x = view_xview[0];
+y = view_yview[0];
 </string>
           </argument>
         </arguments>
