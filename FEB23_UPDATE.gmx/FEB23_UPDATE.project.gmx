@@ -182,6 +182,7 @@
     <room>rooms\room_blacksmith</room>
     <room>rooms\room_pause</room>
     <room>rooms\room_button_example</room>
+    <room>rooms\room_castle</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
